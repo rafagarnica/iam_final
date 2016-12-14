@@ -192,15 +192,20 @@ Image credits: unsplash.com
       background-size: cover;
     background-repeat: no-repeat;
 }
-#first-slider .slide3 {
-  background-image: url(http://s20.postimg.org/el56m97f1/image.jpg);
-      background-size: cover;
-    background-repeat: no-repeat;
+#slide-3 {
+  background-color: #ff0000;
+  height: 480px;
 }
 #first-slider .slide4 {
+
   background-image: url(http://s20.postimg.org/66pjy66dp/image.jpg);
       background-size: cover;
     background-repeat: no-repeat;
+}
+#map{
+  height: 300px;
+  width: 100%;
+
 }
 
 
