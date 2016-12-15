@@ -193,7 +193,7 @@ Image credits: unsplash.com
     background-repeat: no-repeat;
 }
 #slide-3 {
-  background-color: #E65959;
+  background-color:#E65959;
   height: 480px;
 }
 .slide-4-1{
@@ -202,7 +202,7 @@ Image credits: unsplash.com
 
 #slide-4.slide-story {
 margin: 0 auto;
-  background-color: #ff0000;
+  background-color: #ffffff;
 }
 #map{
   height: 300px;
