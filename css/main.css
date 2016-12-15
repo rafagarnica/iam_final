@@ -199,12 +199,10 @@ Image credits: unsplash.com
 .slide-4-1{
   width: 100px;
 }
-.slide-story #slide-4 {
+
+#slide-4.slide-story {
 margin: 0 auto;
   background-color: #ff0000;
-  background-image: url(http://s20.postimg.org/66pjy66dp/image.jpg);
-      background-size: cover;
-    background-repeat: no-repeat;
 }
 #map{
   height: 300px;
