@@ -7,12 +7,12 @@ width:300px;
 
 .navbar {
  background: #FF6666;
-color: white;
+color: white ;
 margin-bottom: 0px;
 
 }
-.navbar-nav > li >a{
-  color:white;
+.navbar-default .navbar-nav > li >a{
+  color: white;
 }
 
 
@@ -70,6 +70,9 @@ Image credits: unsplash.com
     right: 0;
 }
 
+.container {
+  height: 100%;
+}
 
 #first-slider h3{
   animation-delay: 1s;
@@ -183,22 +186,24 @@ Image credits: unsplash.com
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(http://s20.postimg.org/h50tgcuz1/image.jpg);
-      background-size: cover;;
+    background-image: url("../images/01.png");
+    background-size: 90%;
     background-repeat: no-repeat;
+    width: 100vh;
 }
 #first-slider .slide2 {
-  background-image: url(http://s20.postimg.org/uxf8bzlql/image.jpg);
-      background-size: cover;
+    background-image: url("../images/02.png");
+    background-size: 10%;
     background-repeat: no-repeat;
+    width: 100vh;
 }
 #first-slider .slide3 {
-  background-image: url(http://s20.postimg.org/el56m97f1/image.jpg);
+  background-image: url("../images/03.png");
       background-size: cover;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(http://s20.postimg.org/66pjy66dp/image.jpg);
+  background-image: url("../images/04.png");
       background-size: cover;
     background-repeat: no-repeat;
 }

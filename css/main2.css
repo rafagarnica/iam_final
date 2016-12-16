@@ -1,0 +1,63 @@
+.carousel-indicators li {
+  border-color: grey;
+}
+
+.carousel-indicators {
+  bottom: 0%;
+}
+
+.active {
+  background-color: grey;
+}
+
+.glyphicon::before {
+  color: #FF8188;
+}
+
+.carousel-control .glyphicon-chevron-left {
+  color: #FF8188;
+  left: 15%;
+}
+
+.carousel-control .glyphicon-chevron-right {
+  color: #FF8188;
+  right: 15%;
+}
+
+.carousel-control{
+  opacity: 1;
+  background-color: transparent;
+  /*background-image: none !important;*/
+}
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}
+
+#logonav {
+  height: 35px;
+  margin-top: 25px;
+}
+
+#menu-link-1 {
+  color: inherit;
+}
+
+#menu-link-2 {
+  color: inherit;;
+}
+
+#menu-link-3 {
+  color: inherit;;
+}
+
+#menu-link-4 {
+  color: inherit;
+}
+
+.change {
+  background-color: white !important;
+  color: #FF5859 !important;
+}
