@@ -208,7 +208,9 @@ Image credits: unsplash.com
       background-size: cover;
     background-repeat: no-repeat;
 
+}
 #seccion-3 {
+
 color:#ffffff;
   background-color:#E65959;
   height: 480px;
@@ -224,8 +226,13 @@ margin: 0 auto;
 #map{
   height: 300px;
   width: 100%;
-}
 
+}
+.central{
+  height: 485px;
+    display: flex;
+    align-items:center;
+}
 
 
 
