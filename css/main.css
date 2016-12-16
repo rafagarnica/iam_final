@@ -183,7 +183,7 @@ Image credits: unsplash.com
 
 
 /********************************/
-/*       Slides backgrounds     */
+/*       aqui empiesa lo mio XD    */
 /********************************/
 #first-slider .slide1 {
     background-image: url("../images/01.png");
@@ -197,6 +197,7 @@ Image credits: unsplash.com
     background-repeat: no-repeat;
     width: 100vh;
 }
+
 #first-slider .slide3 {
   background-image: url("../images/03.png");
       background-size: cover;
@@ -206,6 +207,23 @@ Image credits: unsplash.com
   background-image: url("../images/04.png");
       background-size: cover;
     background-repeat: no-repeat;
+
+#seccion-3 {
+color:#ffffff;
+  background-color:#E65959;
+  height: 480px;
+}
+.seccion-4-1{
+  width: 100px;
+}
+
+#seccion-4.seccion-story {
+margin: 0 auto;
+  background-color: #ffffff;
+}
+#map{
+  height: 300px;
+  width: 100%;
 }
 
 
