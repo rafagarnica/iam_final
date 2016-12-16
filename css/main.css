@@ -1,3 +1,14 @@
+.modal-content > .modal-body{
+  opacity: 0.5;
+}
+
+
+.slide story > #slide .container > .contdiv{
+  width: 800px;
+  height: 600px;
+}
+
+
 .logoNav {
 margin: -70px 0 0 30px;
 position:absolute;
@@ -13,6 +24,11 @@ margin-bottom: 0px;
 }
 .navbar-nav > li >a{
   color:white;
+}
+
+#mdl1{
+  width: 100%;
+  height: 100%;
 }
 
 
