@@ -8,35 +8,57 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/prueba.css">
-
-
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
     <title>Información</title>
   </head>
   <body>
+    <!-- Comienza Navbar -->
     <nav  class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header navColor">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <div class="container-fluid">
+        <div class="navbar-header navColor">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+             <li><a id="menu-link-1" href="#slide-1" title="Next Section">¿Qué es IAM?</a></li>
+             <li><a id="menu-link-2" href="#slide-2" title="Next Section">¿Qué es el infarto?</a></li>
+             <li><a id="menu-link-3" href="#slide-3" title="Next Section">Centros de Atención</a></li>
+             <li><a id="menu-link-4" href="#slide-4" title="Next Section">Redes Sociales</a></li>
+             <li><a class="btn" data-toggle="modal" data-target="#modalContacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="containter logoNav">
+      <a href="index.html">
+       <img class="animated pulse" alt="IAM" id="logonav" src="images/corazon.png">
+      </a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a id="menu-link-1" href="#slide-1" title="Next Section">¿Qué es IAM?</a></li>
-        <li><a id="menu-link-2" href="#slide-2" title="Next Section">¿Qué es el infarto?</a></li>
-        <li><a id="menu-link-2" href="#slide-3" title="Next Section">Centros de Atención</a></li>
-        <li><a id="menu-link-3" href="#slide-4" title="Next Section">Redes Sociales</a></li>
-        <li><a class="btn" data-toggle="modal" data-target="#modalContacto">Contacto</a></li>
-      </ul>
+
+    <div id="modalContacto" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contacto</h4>
+          </div>
+          <div class="modal-body">
+            <p>Teléfono: 555-555-55-55</p>
+            <p>e-mail: blah.blah@iam.mx</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
 <a href="#" class="irArriba">Arriba</a>
 
@@ -123,6 +145,20 @@
     </div>
 </section>
 
+<footer>
+  <div class="container">
+    <hr>
+        <div class="text-center center-block">
+            <h3 class="txt-railway">- Síguenos -</h3>
+            <br />
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+</div>
+    <hr>
+</div>
+</footer>
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.js"

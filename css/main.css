@@ -35,11 +35,11 @@ body {
 
 #fondoIm{
   background-size: 90% auto;
-  background-color: #E65959;
+  background-color: #FF5859;
 }
 
 .txtr{
-  color: #E65959;
+  color: #FF5859;
 }
 
 .service-heading{
@@ -57,7 +57,7 @@ body {
 }
 /*.color{
   width: 100%;
-  background-color: #E65959;
+  background-color: #FF5859;
 }*/
 .titulos{
   color:#ffffff;
@@ -66,7 +66,7 @@ body {
   font-family: "Archivo Black";
   z-index: 1;
   position: relative;
-  background-color: #E65959;
+  background-color: #FF5859;
 }
 
 
@@ -96,14 +96,14 @@ body {
 }
 
 .titulos2{
-  color:#E65959;
+  color:#FF5859;
   font-size: 40px;
   margin-top: 0px;
   font-family: "Archivo Black";
 }
 
 .titulos3{
-  color:#E65959;
+  color:#FF5859;
   font-size: 50px;
   margin-top: -6%;
   font-family: "Archivo Black";
@@ -121,7 +121,7 @@ body {
 
 .color {
   width: 98%;
-  background-color: #E65959;
+  background-color: #FF5859;
   padding:2%;
 }
 .shape {
@@ -140,7 +140,7 @@ body {
 .shape2 {
   height: 100%;
   width: 98%;
-  border: 5px solid #E65959;
+  border: 5px solid #FF5859;
   padding:2%;
   margin-right: 0;
 }
@@ -148,7 +148,7 @@ body {
 
 /*.hide-border{
    position: relative;
-  background-color: #E65959;
+  background-color: #FF5859;
   height:4px;
   z-index:1;
   width:40%;
@@ -190,7 +190,7 @@ width:300px;
 }
 
 .navbar {
- background: #FF6666;
+ background: #FF5859;
 color: white ;
 margin-bottom: 0px;
 
@@ -273,6 +273,12 @@ Image credits: unsplash.com
   animation-delay: 3s;
 }
 
+#capacitaciones {
+  margin: 50px;
+  background-color: #FF5859;
+  color: white;
+  padding: 1%;
+}
 
 #first-slider .carousel-control {
     width: 6%;
@@ -401,7 +407,7 @@ Image credits: unsplash.com
 #seccion-3 {
 
 color:#ffffff;
-  background-color:#E65959;
+  background-color:#FF5859;
   height: 480px;
 }
 .seccion-4-1{
@@ -425,7 +431,7 @@ margin: 0 auto;
 
 .gallery {
   background-color: white;
-  color: #E65959;
+  color: #FF5859;
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
@@ -435,11 +441,39 @@ margin: 0 auto;
   margin-bottom: 50px;
 }
 
-h2 .tituloGaleria {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 110px;
-}
+/*Footer*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
 
 
 

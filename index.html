@@ -38,11 +38,11 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-         <li><a id="menu-link-1" href="#slide-1" title="Next Section">¿Qué es IAM?</a></li>
-         <li><a id="menu-link-2" href="#slide-2" title="Next Section">¿Qué es el infarto?</a></li>
-         <li><a id="menu-link-3" href="#slide-3" title="Next Section">Centros de Atención</a></li>
-         <li><a id="menu-link-4" href="#slide-4" title="Next Section">Redes Sociales</a></li>
-         <li><a class="btn" data-toggle="modal" data-target="#modalContacto">Contacto</a></li>
+         <li><a id="menu-link-1" href="#QueEsIAM" title="Next Section">¿Qué es IAM?</a></li>
+         <li><a id="menu-link-2" href="#QueEsInfarto" title="Next Section">¿Qué es el infarto?</a></li>
+         <li><a id="menu-link-3" href="#GaleriaImagenes" title="Next Section">Galería</a></li>
+         <li><a id="menu-link-4" href="#mapaGoogle" title="Next Section">Centros de Atención</a></li>
+         <li><a class="btn" data-toggle="modal" data-target="#modalContacto">Redes Sociales</a></li>
       </ul>
     </div>
   </div>
@@ -235,10 +235,10 @@
 </section>
 
 <!-- Empieza Galería -->
-<div class="gallery">
-  <h2 class="tituloGaleria">Nuestras Capacitaciones</h2>
+<div id="GaleriaImagenes" class="gallery">
+  <h2 id="capacitaciones" class="tituloGaleria">Galería: Cursos</h2>
      <div class="col-md-2 col-md-offset-1">
-       <img src="images/gallery/01.jpg"  width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal" id="fotos"></button>
+       <img src="images/gallery/01.jpg"  width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal" id="fotos"></button>
        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -253,7 +253,7 @@
     </div>
 
     <div class="col-md-2 col-md-offset-2">
-       <img src="images/gallery/02.jpg" width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal"></button>
+       <img src="images/gallery/02.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal"></button>
        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -268,7 +268,7 @@
     </div>
 
     <div class="col-md-2 col-md-offset-2">
-       <img src="images/gallery/03.jpg" width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal3"></button>
+       <img src="images/gallery/03.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal3"></button>
        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -286,7 +286,7 @@
 <div class="gallery">
 
      <div class="col-md-2 col-md-offset-1">
-       <img src="images/gallery/04.jpg"  width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal4" id="fotos"></button>
+       <img src="images/gallery/04.jpg"  width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal4" id="fotos"></button>
        <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -301,7 +301,7 @@
     </div>
 
     <div class="col-md-2 col-md-offset-2">
-       <img src="images/gallery/05.jpg" width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal5"></button>
+       <img src="images/gallery/05.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal5"></button>
        <div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -316,7 +316,7 @@
     </div>
 
     <div class="col-md-2 col-md-offset-2">
-       <img src="images/gallery/06.jpg" width="250" height="200" type="button"  data-toggle="modal" data-target="#myModal6"></button>
+       <img src="images/gallery/06.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal6"></button>
        <div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
          <div class="modal-content">
@@ -349,7 +349,7 @@
 </section>
 
     <div>
-         <div class="row1">
+         <div class="row">
            <div class="col-sm-6 col-sm-offset-3">
 
           caja de comentarios
@@ -367,11 +367,25 @@
     </div>
   </div>
 
+  <footer>
+    <div class="container">
+      <hr>
+          <div class="text-center center-block">
+              <br />
+                  <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+  	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+  	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+  	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+  </div>
+      <hr>
+  </div>
+  </footer>
+
     <script src="https://code.jquery.com/jquery-3.1.1.js"
     intgrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
+
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
