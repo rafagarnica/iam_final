@@ -423,6 +423,24 @@ margin: 0 auto;
     align-items:center;
 }
 
+.gallery {
+  background-color: white;
+  color: #E65959;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.mapa{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 .tituloGaleria {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+
 
 
 /********************************/
