@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+    <title>IAM</title>
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Comienza Navbar -->
+    <nav  class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header navColor">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a id="menu-link-1" href="#QueEsIAM" title="Next Section">¿Qué es IAM?</a></li>
+         <li><a id="menu-link-2" href="#QueEsInfarto" title="Next Section">¿Qué es el infarto?</a></li>
+         <li><a id="menu-link-3" href="#GaleriaImagenes" title="Next Section">Galería</a></li>
+         <li><a id="menu-link-4" href="#mapaGoogle" title="Next Section">Centros de Atención</a></li>
+         <li><a class="btn" data-toggle="modal" data-target="#modalContacto">Redes Sociales</a></li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+
+    <div class="containter logoNav">
+      <a href="#">
+       <img class="animated pulse1" alt="IAM" id="logonav" src="images/corazon.png">
+      </a>
+    </div>
+
+    <div id="modalContacto" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contacto</h4>
+          </div>
+          <div class="modal-body">
+            <p>Teléfono: 555-555-55-55</p>
+            <p>e-mail: blah.blah@iam.mx</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Termina NavBar -->
+
+
+<!-- Comienza Carrusel -->
+
+  <div id="mycarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target = "#mycarousel" data-slide-to = "0" class="active"></li>
+      <li data-target = "#mycarousel" data-slide-to = "1"></li>
+      <li data-target = "#mycarousel" data-slide-to = "2"></li>
+      <li data-target = "#mycarousel" data-slide-to = "3"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/01.png" alt="01" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="images/02.png" alt="01" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="images/03.png" alt="01" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="images/04.png" alt="01" class="img-responsive">
+      </div>
+
+    </div>
+
+    <a class="carousel-control left" href="#mycarousel" data-slide= "prev">
+      <span class="glyphicon glyphicon-chevron-left"> </span>
+    </a>
+
+    <a class="carousel-control right" href="#mycarousel" data-slide= "next">
+      <span class="glyphicon glyphicon-chevron-right"> </span>
+    </a>
+  </div>
+
+
+<!-- Termina Carrusel -->
+
+<!--Seccion Nelly-->
+<!--Que es IAM-->
+<section id="QueEsIAM">
+    <div class="container color" id="fondoIm">
+      <div class="hide-border">
+
+      </div>
+    <div class="shape">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 text-center">
+                <h2 class="section-heading titulos">IAM MX</h2>
+                <p class="subs">Haz click en los íconos</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+
+                    <img src="img/queesicono.png" type="button" data-toggle="collapse" data-target="#panel1"  width="200px" height="200px" alt="" class="iconos"></button>
+                    <h4 class="service-heading">¿Qué es IAM MX?</h4>
+                    <div id="panel1" class="collapse">
+                      <p class="paneltxt">Somos una sociedad no lucrativa que busca crear conciencia y
+                      mejorar el tratamiento de la principal causa de muerte en México y
+                      el mundo: <br><b>el infarto al miocardio</b>.<p>
+                    </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="img/doctores.png" type="button" data-toggle="collapse" data-target="#panel2" width="200px" height="200px" alt="" class="iconos"></button>
+                    <h4 class="service-heading">¿Cómo trabajamos?</h4>
+                    <div id="panel2" class="collapse">
+                      <p class="paneltxt"><b>IAM Mx</b> colabora con el gobierno de la Ciudad de México y el Gobierno Federal, así como con organismos no gubernamentales (BID, Banco Interamericano para el Desarrollo) para implementar estrategias que lleven a una mejor esperanza de vida tras el infarto del miocardio. Entre las actividades de IAM Mx:<br><br>
+
+                    <blockquote class="paneltxt" style="text-align:left;">
+                     <b>A) Curso de reperfusión en México*:<br></b>
+                     Que prepara para la identificación y el tratamiento del infarto agudo del miocardio con elevación del ST (IAMCST) según las mejores prácticas en México.<br><br>
+
+                     <b>B) Acuerdos:</b> Se han firmado acuerdos con diferentes Instituciones. Aquí para ver las fotos.<br><br>
+
+                     <b>C) Investigación:</b> Algunos de los trabajos de investigación más relevantes publicados por el grupo IAM Mx.<br><br>
+                   <i>*Únicamente para profesionales de la salud</i>
+                 </blockquote>
+                    </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section><br><br>
+
+<!--Termina qué es IAM-->
+
+<section id="QueEsInfarto">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading titulos2">¿Qué es el infarto <br>de miocardio?</h2>
+
+                <p class="subs">Haz click en los íconos</p><br><br>
+
+            </div>
+        </div>
+        <div class="row text-center ">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                    <img src="img/corazonboton.png" type="button" data-toggle="modal" data-target="#Modal1" width="150px" height="150px" alt="" class="iconos"></button>
+                    <div id="Modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-body">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/g9xn4AQ2Dy8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="gifres"></iframe>
+                         </div>
+                      </div>
+                    </div>
+
+                    <h4 class="txtr">¿Por qué se produce?</h4>
+
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                    <img src="img/interrogacion.png" type="button" data-toggle="modal" data-target="#Modal2" width="150px" height="150px" alt="" class="iconos"></button>
+                    <div id="Modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-body">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/nY0EVdyMd0o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                         </div>
+                      </div>
+                    </div>
+
+                <h4 class="txtr">Síntomas</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                    <img src="img/barrasicono.png" type="button" data-toggle="modal" data-target="#Modal3" width="150px" height="150px" alt="" class="iconos"></button>
+                    <div id="Modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-body">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MdZYTwXngrs" frameborder="0" allowfullscreen></iframe>
+                         </div>
+                      </div>
+                    </div>
+
+                <h4 class="txtr">Estadísticas</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                  <img src="img/caritafeliz.png"  type="button" data-toggle="modal" data-target="#Modal4" width="150px" height="150px" alt="" class="iconos"></button>
+                    <div id="Modal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-body">
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/MWs08znNLrI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                         </div>
+                      </div>
+                    </div>
+
+                <h4 class="txtr">¿Cómo prevenirlo?</h4>
+            </div>
+           <div class="col-md-12 text-center">
+            <br><br><p style="color:#E65959">El infarto agudo del miocardio es la primera causa de muerte en México y en el mundo.
+            </p>
+            <a class="btn btn-danger" href="informacion.html" role="button">Más Información</a>
+           </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Empieza Galería -->
+<div id="GaleriaImagenes" class="gallery">
+  <h2 id="capacitaciones" class="tituloGaleria">Galería: Cursos</h2>
+     <div class="col-md-2 col-md-offset-1">
+       <img src="images/gallery/01.jpg"  width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal" id="fotos"></button>
+       <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/01.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+    </div>
+
+    <div class="col-md-2 col-md-offset-2">
+       <img src="images/gallery/02.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal"></button>
+       <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/02.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+    </div>
+
+    <div class="col-md-2 col-md-offset-2">
+       <img src="images/gallery/03.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal3"></button>
+       <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/03.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+     </div>
+</div>
+
+<div class="gallery">
+
+     <div class="col-md-2 col-md-offset-1">
+       <img src="images/gallery/04.jpg"  width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal4" id="fotos"></button>
+       <div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/04.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+    </div>
+
+    <div class="col-md-2 col-md-offset-2">
+       <img src="images/gallery/05.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal5"></button>
+       <div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/05.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+    </div>
+
+    <div class="col-md-2 col-md-offset-2">
+       <img src="images/gallery/06.jpg" width="198.5" height="auto" type="button"  data-toggle="modal" data-target="#myModal6"></button>
+       <div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+                <img src="images/gallery/06.jpg" class="img-responsive">
+            </div>
+          </div>
+         </div>
+       </div>
+       <br></br>
+       <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos vero officiis nesciunt nobis ratione odit eius, minus consectetur maiores nostrum dolore ea incidunt dignissimos?<p></center>
+     </div>
+</div>
+
+
+<!-- Termina Galeria -->
+
+<section>
+  <div class="mapa">
+
+    <div class="mapa col-md-4 col-md-offset-2" id="mapaGoogle" data-seccion="3">
+         <!-- <div class="row1">
+           <div class="col-md-6"> -->
+
+       <iframe src="https://www.google.com/maps/d/embed?mid=1rFfXM6yhGO1Nkw_dFCNuHq6h0zs" width="200%" height="480"></iframe>
+
+       </div>
+
+    </div>
+</section>
+
+<<<<<<< HEAD
+    <div>
+         <div class="row">
+           <div class="col-sm-6 col-sm-offset-3">
+
+          caja de comentarios
+             <div class="fb-page"
+              data-href="https://www.facebook.com/infartomexico/" data-tabs="timeline" data-width="500" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/infartomexico/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/infartomexico/">IAM México</a></blockquote></div>
+
+
+               <div class="fb-comments" data-href="https://rafagarnica.github.io/iam_final/" data-width="640px" data-numposts="5"></div>
+
+
+           </div>
+           <div class="col-md-12">
+           </div>
+           </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <hr>
+          <div class="text-center center-block">
+              <br />
+                  <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social-icon"></i></a>
+  	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social-icon"></i></a>
+  	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social-icon"></i></a>
+  	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social-icon"></i></a>
+  </div>
+      <hr>
+  </div>
+  </footer>
+
+
+<div class="container">
+    <div class="row">
+
+     <div class="col-md-4 col-md-offset-2" >
+
+     <div class="col-sm-8 col-sm-offset-2" >
+
+        <div class="fb-comments" data-href="https://rafagarnica.github.io/iam_final/" data-width="640px" data-numposts="5"></div>
+    </div>
+  </div>
+
+</div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.js"
+         intgrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+
+<!--Seccion de Scripts-->
+        <script>
+        // $('.collapse').collapse();
+
+        $(".iconos").hover(function(){
+            $(this).addClass('animated pulse');
+        });
+        $(".iconos").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
+            $(this).removeClass('animated pulse');
+        });
+        </script>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.1.1.js"
+        intgrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script> -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+        <script src="js/main.js"></script>
+
+  </body>
+</html>
