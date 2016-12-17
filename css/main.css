@@ -204,6 +204,12 @@ margin-bottom: 0px;
   height: 100%;
 }
 
+#logonav {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1s;
+}
+
 
 /*
 Bootstrap Image Carousel Slider with Animate.css
@@ -475,6 +481,13 @@ margin: 0 auto;
      color: #f39c12;
  }
 
+
+ #social-fb,
+ #social-tw,
+ #social-gp,
+ #social-em{
+  color: #FF5859;
+ }
 
 
 /********************************/
