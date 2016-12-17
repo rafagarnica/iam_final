@@ -1,0 +1,30 @@
+#bg{
+  background: #fff url(../img/para/backg.jpg) no-repeat top center;
+  height: 580px;
+  margin-top: 20px;
+}
+
+#li1{
+  text-align: right;
+  margin-top: 50px;
+}
+#li2{
+  text-align: left;
+  margin-top: 30px;
+}
+#li3{
+  text-align: center;
+  margin-top: 30px;
+}
+#li4{
+  text-align: center;
+  margin-top: 30px;
+}
+#li5{
+  text-align: center;
+  margin-top: 60px;
+}
+#li6{
+  text-align: center;
+  margin-top: 170px;
+}
